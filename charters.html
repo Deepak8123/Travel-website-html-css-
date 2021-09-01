@@ -1,0 +1,138 @@
+<html>
+   
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/charters.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src='Images/logo.jpg' >
+            <p>TRA<span>VEL</span></p>
+        </div> 
+        <div class="nav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">Book Now</a>
+                    <ul>
+                        <li><a href="cabs.html">Cabs</a></li>
+                        <li><a href="flights.html">Flight</a></li>
+                        <li><a href="hotels.html">Hotels</a></li>
+                        <li><a href="trains.html">Trains</a></li>
+                        <li><a href="charters.html">Charters</a></li>
+                    </ul>
+                    </li>
+                <li><a href="about.html">About</a></li>
+                
+                    <li><a href="#contact">ContactUs</a></li>
+        </div>
+        </header>
+        <section class="section1">
+            <div class="taxigif">
+                <div class="form">
+                        <form >
+                            <fieldset>
+                                <legend >Booking</legend>
+                                
+                            <label for="Name">Full Name</label>
+                            <input type="text" id="Name" placeholder="Enter your name" name="name"><br>
+                            <label for="Phone">Phone</label>
+                            <input type="text" id="Phone" name="Phone" placeholder="Enter your mobile number"><br>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+                            <label for="PickUp">Departure City</label>
+                            <select name="PickUp" id="PickUp">
+                                <option value="" selected disabled hidden>Choose here</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Paris">Paris</option>
+                                <option value="America">America</option>
+                                <option value="Pune">Pune</option>
+                              </select><br>
+                              <label for="Drop">Destination city</label>
+                              <select name="Drop" id="Drop">
+                                <option value="" selected disabled hidden>Choose here</option>
+                                <option value="Italy">Italy</option>
+                                <option value="India">India</option>
+                                <option value="Europe">Europe</option>
+                                <option value="Australia">Australia</option>
+                              </select><br>
+                              <label for="Departure Date">Departure Date</label>
+                            <input type="date" id="Departure Date" name="Departure Date">
+                            <label for="Return Date">Return Date</label>
+                            <input type="date" id="Return Date" name="Return Date">
+                            <label for="Passenger">No.of Travellers</label>
+                            <select name="Passenger" id="Passenger">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                              </select><br>
+                              <input class="submitbut" type="submit" value="Book Now">
+                              
+                            </fieldset>
+                        </form>
+                        
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+            <div class="contact_banner">
+                <h1>HOW CAN WE HELP?</h1>
+            </div>
+            
+<div class="bg-img">
+<h1>Please get in touch and our expert support team will answer all your questions.</h1>
+<form  class="container1" >
+
+<label for="name"><b>Name*</b></label>
+<div id="contact"><input type="text" placeholder="Enter your name" name="name" required></div>
+
+<div id="labels"><label for="email"><b>Email*</b></label></div>
+<div class="loginbar"><input type="text" placeholder="Enter Email" name="email" required></div>>
+
+<label for="psw"><b>Message*</b></label>
+<div  class="loginbar"><input id="msgbox" type="text" placeholder="Enter your message" name="psw" required></div>
+
+<div ><button type="submit" class="btnsubmit" onclick="clicked();">Submit</button></div>
+
+<script type="text/javascript">
+function clicked() {
+alert('Details Submitted Successfully');
+}
+</script>
+
+
+</form>
+
+</div>
+
+        </section>
+        <footer>
+            
+            <div>
+                <p>Follow us on</p>
+                <div><img src="Images/social1.png" style="height: 20%;margin-top: 10px;margin-left: 40%;width:300px;"></div>
+            </div>
+            <hr style="margin-top: 20px;">
+            <div>
+               
+                <p> CONTACT US<br>
+                    Building No. - 223, Patparganj Industrial Area,<br>
+                     New Delhi - 110092 (India)<br>
+
+                    Email us: Care@travel.com<br>
+                    
+                    Call us: 011 - 43131313, 43030303<br>
+                    
+                    WhatsApp:+91 9990 330 330 <br>
+
+                </p>
+            </div>
+          <div class="copy">
+              <p>Copy rights reserved © 2021 www.Travel.com</p>
+          </div>
+        </footer>
+    </body>
+    </html>
